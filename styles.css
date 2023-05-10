@@ -3,8 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body,input,button,select,textarea{
     font-family: 'Poppins',sans-serif;
+    
+}
+
+body{
     background-color: #E5E5E5;
 }
 
@@ -107,5 +112,10 @@ fieldset legend{
     border: 1px solid #e6e6f0;
     border-radius: 8px;
 
-    box-sizing: border-box;
+    height: 56px;
+
+    padding: 0 24px;
+
+    font-size: 16px;
+    line-height: 26px;
 }
