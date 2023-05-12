@@ -110,6 +110,10 @@ fieldset legend {
   color: #c1bccc;
 }
 
+.input-wrapper label span:hover {
+  color: #8f8d95;
+}
+
 .input-wrapper input,
 .input-wrapper textarea {
   background: #fafafc;
