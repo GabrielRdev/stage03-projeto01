@@ -62,11 +62,11 @@
 
         </div>
       </fieldset>
-      <br>
 
       <fieldset>
         <div class="fieldset-wrapper">
           <legend>Privacidade</legend>
+
           <div class="input-wrapper">
             <label for="event-email"> E-mail do administrador <span>(digite um email válido)</span></label>
             <input type="email" id="event-email" />
@@ -78,22 +78,30 @@
             <input type="password" id="event-password" />
           </div>
 
-
-
         </div>
       </fieldset>
 
       <fieldset>
         <div class="fieldset-wrapper">
           <legend>Dia e hora</legend>
-          <div class="input-wrapper">
-            <label for="event-date"> Data</label>
-            <input type="date" id="event-date" />
+
+          <div class="col-3">
+            <div class="input-wrapper">
+              <label for="event-date"> Data</label>
+              <input type="date" id="event-date" />
+            </div>
+
+            <div class="input-wrapper">
+              <label for="event-begin"> das</label>
+              <input type="time" id="event-begin" />
+            </div>
+
+            <div class="input-wrapper">
+              <label for="event-end"> até</label>
+              <input type="time" id="event-end" />
+            </div>
+
           </div>
-
-
-
-
 
         </div>
       </fieldset>
