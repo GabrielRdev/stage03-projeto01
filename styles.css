@@ -139,5 +139,6 @@ fieldset legend {
   appearance: none;
   -webkit-appearance: none;
 
+  background-image: url();
 
 }
