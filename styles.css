@@ -190,7 +190,11 @@ footer .button {
   color: #FFFFFF;
 }
 
-footer .button:hover{
+footer .button:hover {
 
   background: #09964a;
+}
+
+input:invalid {
+  border: 1px solid red;
 }
